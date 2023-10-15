@@ -1,13 +1,16 @@
+absl-py==2.0.0
 alembic==1.1.0
 ansi2html==1.8.0
 appdirs==1.4.3
 asgiref==3.7.2
 asttokens==2.4.0
+astunparse==1.6.3
 attrs==23.1.0
 backcall==0.2.0
 backports.zoneinfo==0.2.1
 blinker==1.4
 branca==0.6.0
+cachetools==5.3.1
 certifi==2019.6.16
 cffi==1.15.1
 chardet==3.0.4
@@ -57,12 +60,19 @@ Flask-Script==2.0.6
 Flask-SQLAlchemy==2.4.0
 Flask-SSLify==0.1.5
 Flask-WTF==0.14.2
+flatbuffers==23.5.26
 folium==0.14.0
 fonttools==4.42.1
+gast==0.4.0
 GDAL @ file:///D:/python3.8.3/Scripts/GDAL-3.4.3-cp38-cp38-win_amd64.whl#sha256=47e49a1833b7db6821bf6bad875f095bdbcba83383d9e77db557854626b55940
 geopandas==0.13.2
+google-auth==2.23.3
+google-auth-oauthlib==1.0.0
+google-pasta==0.2.0
+grpcio==1.59.0
 gunicorn==19.9.0
 h11==0.14.0
+h5py==3.10.0
 honcho==1.0.1
 idna==2.8
 imageio==2.31.1
@@ -80,9 +90,12 @@ jsonschema-specifications==2023.7.1
 jupyter_core==5.4.0
 jupyterlab-widgets==3.0.9
 jwcrypto==1.5.0
+keras==2.13.1
 kiwisolver==1.4.4
 lazy_loader==0.3
+libclang==16.0.6
 Mako==1.1.0
+Markdown==3.5
 MarkupSafe==2.0.1
 matplotlib==3.7.2
 matplotlib-inline==0.1.6
@@ -93,10 +106,11 @@ mysqlclient==2.2.0
 nbformat==5.7.0
 nest-asyncio==1.5.8
 networkx==3.1
-numpy==1.24.4
+numpy==1.24.3
 oauthlib==3.2.2
 open3d==0.17.0
 opencv-python @ file:///E:/resource/dev-tools/python/package/opencv_python-4.5.3.56-cp38-cp38-win_amd64.whl#sha256=b42bbba9f5421865377c7960bd4f3dd881003b322a6bf46ed2302b89224d102b
+opt-einsum==3.3.0
 outcome==1.2.0
 packaging==23.1
 pandas==2.0.3
@@ -114,6 +128,8 @@ protobuf==4.21.12
 psutil==5.9.5
 psycopg2==2.8.3
 pure-eval==0.2.2
+pyasn1==0.5.0
+pyasn1-modules==0.3.0
 PyAutoGUI==0.9.54
 pyclipper==1.3.0.post5
 pycparser==2.21
@@ -146,6 +162,7 @@ requests-oauthlib==1.3.1
 retrying==1.3.4
 rpds-py==0.10.4
 rq==1.1.0
+rsa==4.9
 scikit-image==0.21.0
 scipy==1.10.1
 scooby==0.7.4
@@ -159,6 +176,13 @@ sqlparse==0.4.4
 stack-data==0.6.3
 stl==0.0.3
 tenacity==8.2.3
+tensorboard==2.13.0
+tensorboard-data-server==0.7.1
+tensorflow==2.13.0
+tensorflow-estimator==2.13.0
+tensorflow-intel==2.13.0
+tensorflow-io-gcs-filesystem==0.31.0
+termcolor==2.3.0
 text-unidecode==1.2
 tifffile==2023.7.10
 torch==1.8.1+cpu
@@ -168,7 +192,7 @@ tqdm==4.66.1
 traitlets==5.11.2
 trio==0.22.2
 trio-websocket==0.10.3
-typing_extensions==4.7.1
+typing_extensions==4.5.0
 tzdata==2023.3
 urllib3==1.25.8
 validate-email==1.3
